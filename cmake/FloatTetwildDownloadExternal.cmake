@@ -59,8 +59,8 @@ endfunction()
 ## tbb
 function(float_tetwild_download_tbb)
     float_tetwild_download_project(tbb
-        GIT_REPOSITORY https://github.com/oneapi-src/oneTBB.git
-        GIT_TAG        377a91431ec62c5e296dbeca683c5d1e66d69f32
+        GIT_REPOSITORY https://github.com/wjakob/tbb
+        GIT_TAG        9e219e24fe223b299783200f217e9d27790a87b0
     )
 endfunction()
 
